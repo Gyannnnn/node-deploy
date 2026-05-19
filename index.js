@@ -6,7 +6,7 @@ const app = express();
 
 app.get("/", (req,res)=>{
     res.status(200).json({
-        message: "Hello from the server v 96"
+        message: "Hello from the server v 100000"
     });
 });
 
